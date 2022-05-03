@@ -1,0 +1,318 @@
+<!doctype html>
+<html>
+    <head>  
+        <meta charset="utf-8">
+        <title>Tit Propiedades ubicación CSS</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="EstiloUbicacion.css" type="text/css" rel="stylesheet" media="">
+<!--
+        <style>
+            *{
+                margin :0;
+                padding: 0;
+                list-style: none;
+                font-family: sans-serif;
+            }
+            #chat{
+                position: fixed;
+                width: 250px;
+                height: 40px;   
+                bottom: 0;
+                right: 20px;
+                background: magenta;
+                z-index: 1;
+                color: white;
+                text-align: center;
+                line-height: 40px;
+                font-family: 'Pacifico', cursive;
+                font-size: 20px;
+                border-radius: 20px 20px 0 0;
+                cursor: pointer;
+            }
+            header{
+                position: relative;
+                margin: auto;
+                width: 1000px;
+                height: 120px;
+            }
+
+            #logo{
+                position: absolute;
+                top: 30px;
+                left: 30px;
+                width: 200px;
+                height: 60px;
+                font-family:'Pacifico', cursive;
+                font-size: 50px;
+                text-align: center;
+                line-height: 60px;
+            }
+            .redes{
+                position: absolute;
+                width: 42px;
+                height: 42px;
+                background: #ccc;
+                border-radius: 100%;
+                text-align: center;
+                line-height: 42px;
+                color: white;
+            }
+
+            #icono1{
+                top: 42px;
+                right: 120px;
+            }
+            #icono2{
+                top: 42px;
+                right: 71px;
+            }
+            #icono3{
+                top: 42px;
+                right: 19px;
+            }
+
+            nav{
+                position: relative;
+                margin: 20px auto;
+                width: 1000px;
+                height: 48px;
+            }
+
+            .botones{
+                float: left;
+                width: 196px;
+                height: 48px;
+                background:rgb(100,1,255,1);
+                margin: 0px 2px;
+                font-family:'Pacifico', cursive;
+                color: white;
+                text-align: center;
+                line-height: 48px;
+            }
+            a .botones:hover{
+                background: rgb(100,1,255,.4);
+            }
+
+            a .botones:active{
+                background: rgb(255,1,100,1);
+            }
+
+            #top{
+                position: relative;
+                margin: 20px auto;
+                width: 1000px;
+                height: 192px;
+            }
+
+            #top ul{
+                width: 1010px;   
+                height: 192px;
+            }
+
+            #top ul li{
+                float: left;
+                width: 326px;   
+                height: 192px;
+                margin-right: 10px;
+                text-align: center;
+            }
+
+            #top ul li img{
+                border-radius:100%;
+                height: 100px;
+            }
+
+            #top ul li h1{
+                font-family:'Pacifico', cursive;
+            }
+
+            #top ul li p{
+                font-size: 14px;
+                margin: 10px;
+            }
+
+            section{
+                position: relative;
+                margin: 20px auto;
+                width: 1000px;
+                height: 453px;
+            }
+            aside#izq{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 200px;
+                height: 453px;
+            }
+            aside#izq ul li{
+                background: #aaa;
+                padding: 10px;
+                margin: 2px 10px;
+                list-style: square;
+                list-style-position: inside;
+                list-style-image: url(img/Viñeta1.png);
+            }
+
+            aside#izq ul li a{
+                text-decoration: none;
+            }
+            article{
+                position: absolute;
+                left: 200px;
+                top: 0;
+                width: 600px;
+                height: 453px;
+            }
+            article h1{
+                font-family:'Pacifico', cursive;
+                font-size: 40px;
+                margin: 20px;
+            }
+            article p{
+                margin: 5px 20px;
+                font-size: 14px;
+                text-align: justify;
+            }
+            article p img{
+                float: left;
+                margin-right: 20px;
+            }
+            aside#der{
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 200px;
+                height: 453px;
+            }
+            aside#der h1{
+                width: 200px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                background: rgb(100,0,255,1);
+                color: white ;
+                margin-bottom: 5px;
+            }
+            aside#der input{
+                padding: 10px;
+                margin: 5px 0;
+                width: 176px;
+            }
+
+            aside#der input[type="text"]{
+                background:url(img/LoginUser.png);
+                background-repeat: no-repeat;
+                background-position: right;
+                background-size: contain;
+            }
+            aside#der input[type="password"]{
+                background:url(img/LoginPwd.png);
+                background-repeat: no-repeat;
+                background-position: right;
+                background-size: contain;
+            }
+
+            aside#der input[type="submit"]{
+                width: 200px;
+                background:rgb(100,0,100,5);
+                border:0;
+                color:white;
+            }
+
+            footer{
+                position: relative;
+                margin: 20px auto;
+                width: 1000px;
+                height: 70px;
+                background:rgb(100,1,255,1);
+                text-align: center;
+                line-height: 70px;
+                color: white;
+            }
+
+            
+        </style>
+-->
+    </head> 
+    <body>
+        <div id="chat">CHAT</div>
+        <!--- inicia cabezote-->
+        <header>
+            <div id="logo">LOGOTIPO</div>    
+            <div id="icono1" class="redes">X</div>    
+            <div id="icono2" class="redes">Y</div>    
+            <div id="icono3" class="redes">Z</div>    
+        </header>
+        <!--- Termina cabezote-->
+
+        <!--- inicia barra de navegación-->
+        <nav>
+            <ul>
+                <a href="#"><li class="botones">Boton 1</li></a>
+                <a href="#"><li class="botones">Boton 2</li></a>
+                <a href="#"><li class="botones">Boton 3</li></a>
+                <a href="#"><li class="botones">Boton 4</li></a>
+                <a href="#"><li class="botones">Boton 5</li></a>
+            </ul>
+        </nav>
+        <!--- Termina barra de navegación-->
+
+        <!--- inicia parte superior-->
+        <div id="top">
+            <ul>
+                <li>
+                    <img src="img/CastilloWD.jpg" width="100">
+                    <h1>Wald Disney</h1>
+                    <p>Explora Disneyland Park, un mundo de fantasía donde tus sueños se hacen realidad! Planifica una visita a Disneyland Resort.</p>
+                </li>
+                <li>
+                    <img src="img/Torre eifel.jpg" width="100">
+                    <h1>Torre eifel</h1>
+                    <p>Encuentra en Despegar entradas para Tour a la Torre Eiffel en Paris! Viva una experiencia única en París y disfrútalo al máximo!</p>
+                </li>
+                <li>
+                    <img src ="img/PuenteSF.jpg" width="100">
+                    <h1>Puente SF</h1>
+                    <p>El Golden Gate es el puente más famoso de San Francisco a pesar de no ser el mayor en esta ciudad.</p>
+                </li>
+            </ul>
+        </div>
+        <!--- termina parte superior-->
+
+        <!--- inicia sección-->
+        <section>
+            <aside id="izq">
+                <ul>
+                    <li><a href="#"> Link 1</a></li>
+                    <li><a href="#"> Link 2</a></li>
+                    <li><a href="#"> Link 3</a></li>
+                    <li><a href="#"> Link 4 </a></li>
+                </ul>
+            </aside>
+            <article>
+                <h1>Avistamiento de ballenas</h1>
+                <p><img src="img/Ballenas.jpg" width="250"><br> Comienza la temporada de ballenas en México, 7 lugares para verlas de cerca
+                    Desde Baja California hasta Oaxaca se localizan las ballenas grises, azules y jorobadas; prepárate para su avistamiento, te decimos dónde y cuándo verlas.</p>
+                    <!-- <h1>Turismo</h1>  -->
+                <p>México fue visitado en 2021 por 31.9 millones de turistas extranjeros, quienes gastaron 19,795 mdd, cifras que representaron incrementos de 31.3% y 80%, respectivamente, respecto a 2020, informó el titular de la Secretaría de Turismo, Miguel Torruco.</p>
+                
+                
+            </article>
+            <aside id="der">
+                <h1>Ingreso</h1>
+                <form>
+                    <input type="text" placeholder="Usuario">
+                    <input type="password" placeholder="Contraseña">
+                    <input type="submit" value="Enviar">
+                </form>
+            </aside>
+        </section>
+        <!--- termina sección-->
+
+        <!--- inicia pie de página-->
+        <footer>
+            &copy;Todos los derechos reservados.
+        </footer>
+        <!--- cierra pie de página-->
+    </body>
+</html>
